@@ -37,6 +37,10 @@ button {
 }
 .needMargin{
     margin-top: 10px;
+    width: 110%;
+}
+.needwidth{
+    width: 110%;
 }
 
 button:hover {

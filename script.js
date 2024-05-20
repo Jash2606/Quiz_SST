@@ -148,7 +148,7 @@ function showResults() {
     resetvalue++;
     quizContainer.innerHTML = `
         <h1>${correctAns*10}</h1>
-        <button onclick="startQuiz()" id="btn">Play Again</button><br>
+        <button onclick="startQuiz()" id="btn" class="needwidth" >Play Again</button><br>
         <button id="btn" class="needMargin" onclick="showHomePage()">Go Home</button>
     `;
 }
